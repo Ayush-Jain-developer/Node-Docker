@@ -48,7 +48,7 @@ module.exports = class UserAuth {
         
         req.session.user = user;
         
-        console.log(req.session);
+        
         return res.status(200).send({
           status : 200,
           message : "Logged in successfully",
