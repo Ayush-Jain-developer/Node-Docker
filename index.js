@@ -69,7 +69,7 @@ app.use(
 )
 
 app.get('/api/home', (req, res) => {
-  res.send('Hello There!!')
+  res.send('Hello There')
 })
 
 app.use(postRouter)
