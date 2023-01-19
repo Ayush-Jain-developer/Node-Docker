@@ -69,6 +69,7 @@ app.use(
 )
 
 app.get('/api/home', (req, res) => {
+  console.log("API hit");
   res.send('Hello There')
 })
 
