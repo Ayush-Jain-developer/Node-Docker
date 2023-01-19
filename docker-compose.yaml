@@ -3,7 +3,7 @@ services:
   nginx:
     image: nginx:stable-alpine
     volumes:
-      - ./nginX/default.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./nginX/default.conf:/etc/nginx/conf.d/default.conf
   node-app:
     build: .
     
