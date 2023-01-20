@@ -70,7 +70,7 @@ app.use(
 
 app.get('/api/home', (req, res) => {
   console.log("API hit");
-  res.send('Hello There')
+  res.send('Hello There!!!!')
 })
 
 app.use(postRouter)
