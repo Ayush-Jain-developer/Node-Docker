@@ -6,7 +6,7 @@ services:
       - ./nginX/default.conf:/etc/nginx/conf.d/default.conf
   node-app:
     build: .
-    
+    image: ayushjn62/node-app
     environment:
       - PORT=3000
     depends_on:
